@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 40ea984933703ad46af7868506584c31
+timeCreated: 1485019094
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm1_l
+    100002: arm1_r
+    100004: arm2_l
+    100006: arm2_r
+    100008: Cube
+    100010: elbow_pole_l
+    100012: elbow_pole_r
+    100014: finger1_l
+    100016: finger1_r
+    100018: finger2_l
+    100020: finger2_r
+    100022: foot_ik_l
+    100024: foot_ik_r
+    100026: foot_l
+    100028: foot_r
+    100030: hand_ik_l
+    100032: hand_ik_r
+    100034: hand_l
+    100036: hand_r
+    100038: head
+    100040: knee_pull_l
+    100042: knee_pull_r
+    100044: leg1_l
+    100046: leg1_r
+    100048: leg2_l
+    100050: leg2_r
+    100052: neck
+    100054: Player
+    100056: //RootNode
+    100058: PlayerSkeleton
+    100060: root
+    100062: shoulder_l
+    100064: shoulder_r
+    100066: thumb1_l
+    100068: thumb1_r
+    100070: thumb2_l
+    100072: thumb2_r
+    100074: torso1
+    100076: torso2
+    400000: arm1_l
+    400002: arm1_r
+    400004: arm2_l
+    400006: arm2_r
+    400008: Cube
+    400010: elbow_pole_l
+    400012: elbow_pole_r
+    400014: finger1_l
+    400016: finger1_r
+    400018: finger2_l
+    400020: finger2_r
+    400022: foot_ik_l
+    400024: foot_ik_r
+    400026: foot_l
+    400028: foot_r
+    400030: hand_ik_l
+    400032: hand_ik_r
+    400034: hand_l
+    400036: hand_r
+    400038: head
+    400040: knee_pull_l
+    400042: knee_pull_r
+    400044: leg1_l
+    400046: leg1_r
+    400048: leg2_l
+    400050: leg2_r
+    400052: neck
+    400054: Player
+    400056: //RootNode
+    400058: PlayerSkeleton
+    400060: root
+    400062: shoulder_l
+    400064: shoulder_r
+    400066: thumb1_l
+    400068: thumb1_r
+    400070: thumb2_l
+    400072: thumb2_r
+    400074: torso1
+    400076: torso2
+    2300000: Cube
+    3300000: Cube
+    4300000: Player
+    4300002: Cube
+    7400000: Default Take
+    7400002: PlayerAirAttack
+    9500000: //RootNode
+    13700000: Player
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PlayerAirAttack
+      takeName: PlayerAirAttack
+      firstFrame: -1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Player
+        weight: 1
+      - path: PlayerSkeleton
+        weight: 1
+      - path: PlayerSkeleton/elbow_pole_l
+        weight: 1
+      - path: PlayerSkeleton/elbow_pole_r
+        weight: 1
+      - path: PlayerSkeleton/foot_ik_l
+        weight: 1
+      - path: PlayerSkeleton/foot_ik_r
+        weight: 1
+      - path: PlayerSkeleton/hand_ik_l
+        weight: 1
+      - path: PlayerSkeleton/hand_ik_r
+        weight: 1
+      - path: PlayerSkeleton/knee_pull_l
+        weight: 1
+      - path: PlayerSkeleton/knee_pull_r
+        weight: 1
+      - path: PlayerSkeleton/root
+        weight: 1
+      - path: PlayerSkeleton/root/leg1_l
+        weight: 1
+      - path: PlayerSkeleton/root/leg1_l/leg2_l
+        weight: 1
+      - path: PlayerSkeleton/root/leg1_l/leg2_l/foot_l
+        weight: 1
+      - path: PlayerSkeleton/root/leg1_r
+        weight: 1
+      - path: PlayerSkeleton/root/leg1_r/leg2_r
+        weight: 1
+      - path: PlayerSkeleton/root/leg1_r/leg2_r/foot_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/neck
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/neck/head
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l/arm1_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l/arm1_l/arm2_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l/arm1_l/arm2_l/hand_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l/arm1_l/arm2_l/hand_l/finger1_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l/arm1_l/arm2_l/hand_l/finger1_l/finger2_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l/arm1_l/arm2_l/hand_l/thumb1_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_l/arm1_l/arm2_l/hand_l/thumb1_l/thumb2_l
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r/arm1_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r/arm1_r/arm2_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r/arm1_r/arm2_r/hand_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r/arm1_r/arm2_r/hand_r/finger1_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r/arm1_r/arm2_r/hand_r/finger1_r/finger2_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r/arm1_r/arm2_r/hand_r/thumb1_r
+        weight: 1
+      - path: PlayerSkeleton/root/torso1/torso2/shoulder_r/arm1_r/arm2_r/hand_r/thumb1_r/thumb2_r
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
